@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/com/tzombie/store/v1/create/item.sql
+  - include:
+      file: db/changelog/com/tzombie/store/v1/create/account.sql

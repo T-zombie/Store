@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/com/tzombie/store/v1/create/index.yaml
+  - include:
+      file: db/changelog/com/tzombie/store/v1/insert/index.yaml

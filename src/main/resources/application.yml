@@ -1,0 +1,13 @@
+spring:
+    main:
+        allow-bean-definition-overriding: true
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://${PG_HOST:127.0.0.1}:${PG_PORT:5432}/${PG_DBNAME:store}?reWriteBatchedInserts=true
+        username: ${PG_USERNAME:test}
+        password: ${PG_PASSWORD:test}
+server:
+    port: 8080
+springdoc:
+    swagger-ui:
+        disable-swagger-default-url: true
